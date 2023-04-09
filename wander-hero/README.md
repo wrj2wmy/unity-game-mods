@@ -11,9 +11,9 @@
 
 ## 目录
 
-* [神眷9选9的修改](https://github.com/wrj2wmy/unity-game-mods/wander-hero#神眷9选9的修改)
-* [附魔概率的修改](https://github.com/wrj2wmy/unity-game-mods/wander-hero#附魔概率的修改)
-* [副本事件的修改](https://github.com/wrj2wmy/unity-game-mods/wander-hero#副本事件的修改)
+* [神眷9选9的修改](https://github.com/wrj2wmy/unity-game-mods/tree/main/wander-hero#神眷9选9的修改)
+* [附魔概率的修改](https://github.com/wrj2wmy/unity-game-mods/tree/main/wander-hero#附魔概率的修改)
+* [副本事件的修改](https://github.com/wrj2wmy/unity-game-mods/tree/main/wander-hero#副本事件的修改)
 
 ## 神眷9选9的修改
 
@@ -177,7 +177,73 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 
 ## 附魔概率的修改
 
-### 附魔真名表
+需要用到UABE(Unity Assemble Bundle Extractor)来提取游戏的配置文件
+我们需要提取的文件是`Cfg_TrueName`
+
+### 属性修改
+
+以金色附魔扩散的修改为例,具体的ID可以参考最后的ID对照表：
+
+**【原版代码】** 
+```json
+   [127]
+    0 Json_TrueName data
+     1 string _id = "enchant_flySpread3"
+     1 string _name = ""
+     1 string _desc = ""
+     1 string _tag = "enchant3"
+     0 int _weight = 3
+     1 string _exData = ""
+     1 string _color = "gold"
+     0 float _addTradeVal = 5
+     0 vector _objMod
+      0 Array Array (1 items)
+       0 int size = 1
+       [0]
+        1 string data = "flySpread +6, castAngle +90"
+     0 Json_XObjSkill _attachSkills
+      0 Array Array (0 items)
+       0 int size = 0
+     0 Json_CardSkill _attachCardSkills
+      0 Array Array (0 items)
+       0 int size = 0
+````
+
+**【修改内容】** 
+```json
+   [127]
+    0 Json_TrueName data
+     1 string _id = "enchant_flySpread3"
+     1 string _name = ""
+     1 string _desc = ""
+     1 string _tag = "enchant3"
+     0 int _weight = 2000 #增加权重比例
+     1 string _exData = ""
+     1 string _color = "gold"
+     0 float _addTradeVal = 5
+     0 vector _objMod
+      0 Array Array (1 items)
+       0 int size = 1
+       [0]
+        1 string data = "flySpread +6, castAngle +90" #扩散+6,角度+90 -> 你可以改的更变态,360度全图也不是不可以 :-) 
+     0 Json_XObjSkill _attachSkills
+      0 Array Array (0 items)
+       0 int size = 0
+     0 Json_CardSkill _attachCardSkills
+      0 Array Array (0 items)
+       0 int size = 0
+````
+
+
+
+
+## 副本事件的修改
+
+
+
+## 真名ID对照表
+
+### 普通天赋
 | 真名                   | 名称      | 效果                             |
 | -------------------- | ------- | ------------------------------ |
 | bornDodge1           | 敏捷      | 闪避+2.5%                        |
@@ -199,6 +265,7 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 | bornZoc1             | 外向      | 机动范围+40                        |
 | bornHp1              | 健康      | 生命值+5                          |
 
+### 稀有天赋
 | 真名                   | 名称      | 效果                             |
 | -------------------- | ------- | ------------------------------ |
 | bornDodge2           | 灵活      | 闪避+5%                          |
@@ -223,6 +290,7 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 | bornZoc2             | 领袖气质    | 机动范围+80                        |
 | bornHp2              | 强壮      | 生命值+10                         |
 
+### 奇迹天赋
 | 真名                   | 名称      | 效果                             |
 | -------------------- | ------- | ------------------------------ |
 | bornDrainHp1         | 吸血鬼     | 吸血+1                           |
@@ -250,6 +318,7 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 | bornZoc3             | 王者之气    | 机动范围+120                       |
 | bornHp3              | 兽化体格    | 生命值+20                         |
 
+### 神眷天赋
 | 真名                   | 名称      | 效果                             |
 | -------------------- | ------- | ------------------------------ |
 | bornMonsterHunter    | 怪物猎人    | 击杀精英和boss 可额外获得强化素材            |
@@ -323,6 +392,3 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 | bornancientWeapon    | 古代兵器    | 放弃行动力时,获得【奥术射线】                |
 | bornWithWorldMap     | 卫星地图    | 到达第一个城镇时,世界地图全探明               |
 | bornBlackTechPhone   | 黑科技手机   | 技能卡射程+160                      |
-
-
-## 副本事件的修改
