@@ -244,92 +244,198 @@ To be added...
 ## 真名ID对照表
 
 ### 附魔效果
-
-| 真名 | 名称  | 效果                                           |
-| -- | --- | -------------------------------------------- |
-| enchant_flySpread1 | 分裂  | 扩散 +2 , 角度 +30                               |
-| enchant_flySpread2 | 扩散  | 扩散 +4 , 角度 +60                               |
-| enchant_flySpread3 | 弹幕  | 扩散 +6 , 角度 +90                               |
-|    | 防护  | 格挡 +1                                        |
-|    | 坚守  | 格挡 +2                                        |
-|    | 铁壁  | 格挡 +3                                        |
-|    | 鹰眼  | 精准 +3                                        |
-|    | 神射  | 精准 +6                                        |
-|    | 锁定  | 精准 +9                                        |
-|    | 火盾  | 反震 +1                                        |
-|    | 反弹  | 反震 +2                                        |
-|    | 结界  | 反震 +3                                        |
-|    | 游走  | 机动 +80                                       |
-|    | 协同  | 机动 +120                                      |
-|    | 战术  | 机动 +160                                      |
-|    | 淬魔  | 魔法 +1                                        |
-|    | 导魔  | 魔法 +2                                        |
-|    | 魔化  | 魔法 +3                                        |
-|    | 强壮  | 攻击 +1                                        |
-|    | 蛮力  | 攻击 +2                                        |
-|    | 怪力  | 攻击 +3                                        |
-|    | 健康  | 生命 +4                                        |
-|    | 活力  | 生命 +8                                        |
-|    | 生命  | 生命 +12                                       |
-|    | 连射  | 射击 +1                                        |
-|    | 多重  | 射击 +2                                        |
-|    | 弹链  | 射击 +3                                        |
-|    | 碎裂  | 必 伤 +1                                       |
-|    | 神能  | 必 伤 +2                                       |
-|    | 毁灭  | 必 伤 +3                                       |
-|    | 荆棘  | 反击 +1                                        |
-|    | 倒刺  | 反击 +2                                        |
-|    | 反转  | 反击 +3                                        |
-|    | 增幅  | 施法 +1                                        |
-|    | 强效  | 施法 +2                                        |
-|    | 极效  | 施法 +3                                        |
-|    | 飞溅  | 范围 +80                                       |
-|    | 波动  | 范围 +120                                      |
-|    | 冲击  | 范围 +160                                      |
-|    | 聚能  | 穿透 +1                                        |
-|    | 刺穿  | 穿透 +2                                        |
-|    | 贯穿  | 穿透 +3                                        |
-|    | 抵抗  | 免疫 +10%                                      |
-|    | 驱散  | 免疫 +20%                                      |
-|    | 净化  | 免疫 +30%                                      |
-|    | 闪躲  | 闪避 +10%                                      |
-|    | 模糊  | 闪避 +15%                                      |
-|    | 幻影  | 闪避 +20%                                      |
-|    | 专注  | 命中 +10%                                      |
-|    | 精确  | 命中 +20%                                      |
-|    | 必中  | 命中 +30%                                      |
-|    | 尖锐  | 穿甲 +10%                                      |
-|    | 击穿  | 穿甲 +20%                                      |
-|    | 透甲  | 穿甲 +30%                                      |
-|    | 耐魔  | 魔 抗 +10%                                     |
-|    | 魔抗  | 魔 抗 +20%                                     |
-|    | 破魔  | 魔 抗 +30%                                     |
-|    | 忍耐  | 物抗 +10%                                      |
-|    | 韧性  | 物抗 +20%                                      |
-|    | 不屈  | 物抗 +30%                                      |
-|    | 轻快  | 移速 +10%                                      |
-|    | 疾风  | 移速 +20%                                      |
-|    | 神速  | 移速 +30%                                      |
-|    | 精巧  | 术式 +10%                                      |
-|    | 叠加  | 术式 +20%                                      |
-|    | 三重  | 术式 +30%                                      |
-|    | 技巧  | 暴击 +30%                                      |
-|    | 看穿  | 暴击 +60%                                      |
-|    | 心眼  | 暴击 +90%                                      |
-|    | 强攻  | 强化 +10%                                      |
-|    | 斗志  | 强化 +20%                                      |
-|    | 热血  | 强化 +30%                                      |
-|    | 高能  | 向队友停下的位置发射光束                                 |
-|    | 轰炸  | 在场时 , 向攻击牌击中的敌人抛射炸弹                          |
-|    | 旋风  | 移动时 , 在周围产生风刃切割                              |
-|    | 乱 流 | 移动时 , 随机向周围喷射魔弹                              |
-|    | 疾走  | 在场时 , 每当打出buff或辅助牌 , 移速 +15% , 射击 +1 , 精准 +1 |
-|    | 治愈  | 在场时 , 每当打出buff或辅助牌 , 治疗3生命                   |
-|    | 圣盾  | 在场时 , 每当打出buff或辅助牌 , 获得 一层圣盾                 |
-|    | 火链  | 在场时 , 每当打出防御牌 , 与最近的友军间产生伤害敌人的火焰锁链           |
-|    | 导电  | 角色击中敌人时产生闪电                                  |
-|    | 闪电  | 在场时 , 向攻击牌击中的敌人发射闪电                          |
-|    | 吸血  | 吸血 +3                                        |
+| 真名                         | 名称 | 最大等级 | 效果                                           | 满级效果                     |
+| -------------------------- | -- | ---- | -------------------------------------------- | ------------------------ |
+| enchant_flySpread1         | 分裂 | 1    | 扩散 +2 , 角度 +30                               | 扩散 +2 , 角度 +30           |
+| enchant_flySpread2         | 扩散 | 1    | 扩散 +4 , 角度 +60                               | 扩散 +4 , 角度 +60           |
+| enchant_flySpread3         | 弹幕 | 1    | 扩散 +6 , 角度 +90                               | 扩散 +6 , 角度 +90           |
+| enchant_parry1             | 防护 | 12   | 格挡 +1                                        | 格挡 +16                   |
+| enchant_parry2             | 坚守 | 12   | 格挡 +2                                        | 格挡 +32                   |
+| enchant_parry3             | 铁壁 | 12   | 格挡 +3                                        | 格挡 +48                   |
+| enchant_aimError1          | 鹰眼 | 1    | 精准 +3                                        | 精准 +3                    |
+| enchant_aimError2          | 神射 | 1    | 精准 +6                                        | 精准 +6                    |
+| enchant_aimError3          | 锁定 | 1    | 精准 +9                                        | 精准 +9                    |
+| enchant_thornsM1           | 火盾 | 12   | 反震 +1                                        | 反震 +16                   |
+| enchant_thornsM2           | 反弹 | 12   | 反震 +2                                        | 反震 +32                   |
+| enchant_thornsM3           | 结界 | 12   | 反震 +3                                        | 反震 +48                   |
+| enchant_zoc1               | 游走 | 1    | 机动 +80                                       | 机动 +80                   |
+| enchant_zoc2               | 协同 | 1    | 机动 +120                                      | 机动 +120                  |
+| enchant_zoc3               | 战术 | 1    | 机动 +160                                      | 机动 +160                  |
+| enchant_atkM1              | 淬魔 | 12   | 魔法 +1                                        | 魔法 +16                   |
+| enchant_atkM2              | 导魔 | 12   | 魔法 +2                                        | 魔法 +32                   |
+| enchant_atkM3              | 魔化 | 12   | 魔法 +3                                        | 魔法 +48                   |
+| enchant_atk1               | 强壮 | 12   | 攻击 +1                                        | 攻击 +16                   |
+| enchant_atk2               | 蛮力 | 12   | 攻击 +2                                        | 攻击 +32                   |
+| enchant_atk3               | 怪力 | 12   | 攻击 +3                                        | 攻击 +48                   |
+| enchant_hp1                | 健康 | 12   | 生命 +4                                        | 生命 +64                   |
+| enchant_hp2                | 活力 | 12   | 生命 +8                                        | 生命 +128                  |
+| enchant_hp3                | 生命 | 12   | 生命 +12                                       | 生命 +192                  |
+| enchant_atkTimes1          | 连射 | 1    | 射击 +1                                        | 射击 +1                    |
+| enchant_atkTimes2          | 多重 | 1    | 射击 +2                                        | 射击 +2                    |
+| enchant_atkTimes3          | 弹链 | 1    | 射击 +3                                        | 射击 +3                    |
+| enchant_atkMin1            | 碎裂 | 12   | 必伤 +1                                        | 必伤 +16                   |
+| enchant_atkMin2            | 神能 | 12   | 必伤 +2                                        | 必伤 +32                   |
+| enchant_atkMin3            | 毁灭 | 12   | 必伤 +3                                        | 必伤 +48                   |
+| enchant_thorns1            | 荆棘 | 12   | 反击 +1                                        | 反击 +16                   |
+| enchant_thorns2            | 倒刺 | 12   | 反击 +2                                        | 反击 +32                   |
+| enchant_thorns3            | 反转 | 12   | 反击 +3                                        | 反击 +48                   |
+| enchant_buffLv1            | 增幅 | 12   | 施法 +1                                        | 施法 +16                   |
+| enchant_buffLv2            | 强效 | 12   | 施法 +2                                        | 施法 +32                   |
+| enchant_buffLv3            | 极效 | 12   | 施法 +3                                        | 施法 +48                   |
+| enchant_hitRadius1         | 飞溅 | 1    | 范围 +80                                       | 范围 +80                   |
+| enchant_hitRadius2         | 波动 | 1    | 范围 +120                                      | 范围 +120                  |
+| enchant_hitRadius3         | 冲击 | 1    | 范围 +160                                      | 范围 +160                  |
+| enchant_pierce1            | 聚能 | 1    | 穿透 +1                                        | 穿透 +1                    |
+| enchant_pierce2            | 刺穿 | 1    | 穿透 +2                                        | 穿透 +2                    |
+| enchant_pierce3            | 贯穿 | 1    | 穿透 +3                                        | 穿透 +3                    |
+| enchant_buffResist1        | 抵抗 | 1    | 免疫 +10%                                      | 免疫 +10%                  |
+| enchant_buffResist2        | 驱散 | 1    | 免疫 +20%                                      | 免疫 +20%                  |
+| enchant_buffResist3        | 净化 | 1    | 免疫 +30%                                      | 免疫 +30%                  |
+| enchant_dodge1             | 闪躲 | 1    | 闪避 +10%                                      | 闪避 +10%                  |
+| enchant_dodge2             | 模糊 | 1    | 闪避 +15%                                      | 闪避 +15%                  |
+| enchant_dodge3             | 幻影 | 1    | 闪避 +20%                                      | 闪避 +20%                  |
+| enchant_prec1              | 专注 | 1    | 命中 +10%                                      | 命中 +10%                  |
+| enchant_prec2              | 精确 | 1    | 命中 +20%                                      | 命中 +20%                  |
+| enchant_prec3              | 必中 | 1    | 命中 +30%                                      | 命中 +30%                  |
+| enchant_armorPierce1       | 尖锐 | 1    | 穿甲 +10%                                      | 穿甲 +10%                  |
+| enchant_armorPierce2       | 击穿 | 1    | 穿甲 +20%                                      | 穿甲 +20%                  |
+| enchant_armorPierce3       | 透甲 | 1    | 穿甲 +30%                                      | 穿甲 +30%                  |
+| enchant_resistM1           | 耐魔 | 1    | 魔抗 +10%                                      | 魔抗 +10%                  |
+| enchant_resistM2           | 魔抗 | 1    | 魔抗 +20%                                      | 魔抗 +20%                  |
+| enchant_resistM3           | 破魔 | 1    | 魔抗 +30%                                      | 魔抗 +30%                  |
+| enchant_resist1            | 忍耐 | 1    | 物抗 +10%                                      | 物抗 +10%                  |
+| enchant_resist2            | 韧性 | 1    | 物抗 +20%                                      | 物抗 +20%                  |
+| enchant_resist3            | 不屈 | 1    | 物抗 +30%                                      | 物抗 +30%                  |
+| enchant_speed1             | 轻快 | 1    | 移速 +10%                                      | 移速 +10%                  |
+| enchant_speed2             | 疾风 | 1    | 移速 +20%                                      | 移速 +20%                  |
+| enchant_speed3             | 神速 | 1    | 移速 +30%                                      | 移速 +30%                  |
+| enchant_buffPierce1        | 精巧 | 1    | 术式 +10%                                      | 术式 +10%                  |
+| enchant_buffPierce2        | 叠加 | 1    | 术式 +20%                                      | 术式 +20%                  |
+| enchant_buffPierce3        | 三重 | 1    | 术式 +30%                                      | 术式 +30%                  |
+| enchant_fatalPower1        | 技巧 | 1    | 暴击 +30%                                      | 暴击 +30%                  |
+| enchant_fatalPower2        | 看穿 | 1    | 暴击 +60%                                      | 暴击 +60%                  |
+| enchant_fatalPower3        | 心眼 | 1    | 暴击 +90%                                      | 暴击 +90%                  |
+| enchant_atkX1              | 强攻 | 1    | 强化 +10%                                      | 强化 +10%                  |
+| enchant_atkX2              | 斗志 | 1    | 强化 +20%                                      | 强化 +20%                  |
+| enchant_atkX3              | 热血 | 1    | 强化 +30%                                      | 强化 +30%                  |
+| enchant_drainHp1           | 吸血 | 12   | 吸血 +1                                        | 吸血 +16                   |
+| enchant_stopArcaneBeam     | 高能 | 5    | 向队友停下的位置发射光束【必伤2】                            | 【必伤32】                   |
+| enchant_cardCoopGernade    | 轰炸 | 5    | 在场时 , 向攻击牌击中的敌人抛射炸弹【必伤2】                     | 【必伤32】                   |
+| enchant_cardCoopIceLance   | 冰锥 | 5    | 在场时 , 向攻击牌击中的敌人发射冰锥【必伤2】                     | 【必伤32】                   |
+| enchant_cardCoopLightning  | 闪电 | 5    | 在场时 , 向攻击牌击中的敌人发射闪电【必伤2】                     | 【必伤32】                   |
+| enchant_cardCoopFloatBlade | 飞刃 | 5    | 在场时 , 每当打出防御牌，召唤3个浮游刀刃【必伤2】                  | 【必伤32】                   |
+| enchant_moveSlashCircle    | 旋风 | 5    | 移动时 , 在周围产生风刃切割【必伤2】                         | 【必伤32】                   |
+| enchant_moveManaArrowRand  | 乱流 | 5    | 移动时 , 随机向周围喷射魔弹【必伤2】                         | 【必伤32】                   |
+| enchant_cardCoopSpdUp      | 疾走 | 1    | 在场时 , 每当打出buff或辅助牌 , 移速 +15% , 射击 +1 , 精准 +1 |                          |
+| enchant_cardCoopHeal       | 治愈 | 5    | 在场时 , 每当打出buff或辅助牌 , 治疗3生命                   |  治疗48生命                  |
+| enchant_cardCoopHolyShield | 圣盾 | 1    | 在场时 , 每当打出buff或辅助牌 , 获得 一层圣盾                 |                          |
+| enchant_cardCoopFireChains | 火链 | 1    | 在场时 , 每当打出防御牌 , 与最近的友军间产生伤害敌人的火焰锁链【必伤2】      | 【必伤32】                   |
+| enchant_hitLightning       | 导电 | 5    | 角色击中敌人时产生闪电【必伤2】                             | 【必伤32】                   |
+| enchant_hitFlame           | 爆炎 | 5    | 角色击中敌人时产生爆炸【必伤2】                             | 【必伤32】                   |
+| enchant_splitMana          | 散弹 | 5    | 角色击中敌人时产生散弹【必伤2】                             | 【必伤32】                   |
+| enchant_stopFireArea       |    | 5    | 当移动停止时，在脚下产生火焰区域【必伤2】                        | 【必伤32】                   |
+| enchant_stopAcidClound     | 酸雾 | 5    | 停下时，向周围释放大量酸雾【必伤2】                           | 【必伤32】                   |
+| enchant_rockBody           | 刚体 | 1    | 弹飞击中自己的近战敌人，攻击力240【必伤1】                      |                          |
+| enchant_cardCoopHoldPos    |    | 5    | 在场时 , 每当打出防御牌 , 反击 +2 , 护甲 +1 , 速度-15%       | 反击 +32 , 护甲 +16 , 速度-15% |
+| enchant_cardCoopManaCost-  |    | 1    | 随即一张手牌消耗行动力减一                                |                          |
+| enchant_cardCoopMana+      |    | 1    | 增加一点行动力                                      |                          |
+| enchant_cardCoopDrawCard   |    | 1    | 抽牌+1                                         |                          |
+| 真名                         | 名称 | 最大等级 | 效果                                           | 满级效果                     |
+| -------------------------- | -- | ---- | -------------------------------------------- | ------------------------ |
+| enchant_flySpread1         | 分裂 | 1    | 扩散 +2 , 角度 +30                               | 扩散 +2 , 角度 +30           |
+| enchant_flySpread2         | 扩散 | 1    | 扩散 +4 , 角度 +60                               | 扩散 +4 , 角度 +60           |
+| enchant_flySpread3         | 弹幕 | 1    | 扩散 +6 , 角度 +90                               | 扩散 +6 , 角度 +90           |
+| enchant_parry1             | 防护 | 12   | 格挡 +1                                        | 格挡 +16                   |
+| enchant_parry2             | 坚守 | 12   | 格挡 +2                                        | 格挡 +32                   |
+| enchant_parry3             | 铁壁 | 12   | 格挡 +3                                        | 格挡 +48                   |
+| enchant_aimError1          | 鹰眼 | 1    | 精准 +3                                        | 精准 +3                    |
+| enchant_aimError2          | 神射 | 1    | 精准 +6                                        | 精准 +6                    |
+| enchant_aimError3          | 锁定 | 1    | 精准 +9                                        | 精准 +9                    |
+| enchant_thornsM1           | 火盾 | 12   | 反震 +1                                        | 反震 +16                   |
+| enchant_thornsM2           | 反弹 | 12   | 反震 +2                                        | 反震 +32                   |
+| enchant_thornsM3           | 结界 | 12   | 反震 +3                                        | 反震 +48                   |
+| enchant_zoc1               | 游走 | 1    | 机动 +80                                       | 机动 +80                   |
+| enchant_zoc2               | 协同 | 1    | 机动 +120                                      | 机动 +120                  |
+| enchant_zoc3               | 战术 | 1    | 机动 +160                                      | 机动 +160                  |
+| enchant_atkM1              | 淬魔 | 12   | 魔法 +1                                        | 魔法 +16                   |
+| enchant_atkM2              | 导魔 | 12   | 魔法 +2                                        | 魔法 +32                   |
+| enchant_atkM3              | 魔化 | 12   | 魔法 +3                                        | 魔法 +48                   |
+| enchant_atk1               | 强壮 | 12   | 攻击 +1                                        | 攻击 +16                   |
+| enchant_atk2               | 蛮力 | 12   | 攻击 +2                                        | 攻击 +32                   |
+| enchant_atk3               | 怪力 | 12   | 攻击 +3                                        | 攻击 +48                   |
+| enchant_hp1                | 健康 | 12   | 生命 +4                                        | 生命 +64                   |
+| enchant_hp2                | 活力 | 12   | 生命 +8                                        | 生命 +128                  |
+| enchant_hp3                | 生命 | 12   | 生命 +12                                       | 生命 +192                  |
+| enchant_atkTimes1          | 连射 | 1    | 射击 +1                                        | 射击 +1                    |
+| enchant_atkTimes2          | 多重 | 1    | 射击 +2                                        | 射击 +2                    |
+| enchant_atkTimes3          | 弹链 | 1    | 射击 +3                                        | 射击 +3                    |
+| enchant_atkMin1            | 碎裂 | 12   | 必伤 +1                                        | 必伤 +16                   |
+| enchant_atkMin2            | 神能 | 12   | 必伤 +2                                        | 必伤 +32                   |
+| enchant_atkMin3            | 毁灭 | 12   | 必伤 +3                                        | 必伤 +48                   |
+| enchant_thorns1            | 荆棘 | 12   | 反击 +1                                        | 反击 +16                   |
+| enchant_thorns2            | 倒刺 | 12   | 反击 +2                                        | 反击 +32                   |
+| enchant_thorns3            | 反转 | 12   | 反击 +3                                        | 反击 +48                   |
+| enchant_buffLv1            | 增幅 | 12   | 施法 +1                                        | 施法 +16                   |
+| enchant_buffLv2            | 强效 | 12   | 施法 +2                                        | 施法 +32                   |
+| enchant_buffLv3            | 极效 | 12   | 施法 +3                                        | 施法 +48                   |
+| enchant_hitRadius1         | 飞溅 | 1    | 范围 +80                                       | 范围 +80                   |
+| enchant_hitRadius2         | 波动 | 1    | 范围 +120                                      | 范围 +120                  |
+| enchant_hitRadius3         | 冲击 | 1    | 范围 +160                                      | 范围 +160                  |
+| enchant_pierce1            | 聚能 | 1    | 穿透 +1                                        | 穿透 +1                    |
+| enchant_pierce2            | 刺穿 | 1    | 穿透 +2                                        | 穿透 +2                    |
+| enchant_pierce3            | 贯穿 | 1    | 穿透 +3                                        | 穿透 +3                    |
+| enchant_buffResist1        | 抵抗 | 1    | 免疫 +10%                                      | 免疫 +10%                  |
+| enchant_buffResist2        | 驱散 | 1    | 免疫 +20%                                      | 免疫 +20%                  |
+| enchant_buffResist3        | 净化 | 1    | 免疫 +30%                                      | 免疫 +30%                  |
+| enchant_dodge1             | 闪躲 | 1    | 闪避 +10%                                      | 闪避 +10%                  |
+| enchant_dodge2             | 模糊 | 1    | 闪避 +15%                                      | 闪避 +15%                  |
+| enchant_dodge3             | 幻影 | 1    | 闪避 +20%                                      | 闪避 +20%                  |
+| enchant_prec1              | 专注 | 1    | 命中 +10%                                      | 命中 +10%                  |
+| enchant_prec2              | 精确 | 1    | 命中 +20%                                      | 命中 +20%                  |
+| enchant_prec3              | 必中 | 1    | 命中 +30%                                      | 命中 +30%                  |
+| enchant_armorPierce1       | 尖锐 | 1    | 穿甲 +10%                                      | 穿甲 +10%                  |
+| enchant_armorPierce2       | 击穿 | 1    | 穿甲 +20%                                      | 穿甲 +20%                  |
+| enchant_armorPierce3       | 透甲 | 1    | 穿甲 +30%                                      | 穿甲 +30%                  |
+| enchant_resistM1           | 耐魔 | 1    | 魔抗 +10%                                      | 魔抗 +10%                  |
+| enchant_resistM2           | 魔抗 | 1    | 魔抗 +20%                                      | 魔抗 +20%                  |
+| enchant_resistM3           | 破魔 | 1    | 魔抗 +30%                                      | 魔抗 +30%                  |
+| enchant_resist1            | 忍耐 | 1    | 物抗 +10%                                      | 物抗 +10%                  |
+| enchant_resist2            | 韧性 | 1    | 物抗 +20%                                      | 物抗 +20%                  |
+| enchant_resist3            | 不屈 | 1    | 物抗 +30%                                      | 物抗 +30%                  |
+| enchant_speed1             | 轻快 | 1    | 移速 +10%                                      | 移速 +10%                  |
+| enchant_speed2             | 疾风 | 1    | 移速 +20%                                      | 移速 +20%                  |
+| enchant_speed3             | 神速 | 1    | 移速 +30%                                      | 移速 +30%                  |
+| enchant_buffPierce1        | 精巧 | 1    | 术式 +10%                                      | 术式 +10%                  |
+| enchant_buffPierce2        | 叠加 | 1    | 术式 +20%                                      | 术式 +20%                  |
+| enchant_buffPierce3        | 三重 | 1    | 术式 +30%                                      | 术式 +30%                  |
+| enchant_fatalPower1        | 技巧 | 1    | 暴击 +30%                                      | 暴击 +30%                  |
+| enchant_fatalPower2        | 看穿 | 1    | 暴击 +60%                                      | 暴击 +60%                  |
+| enchant_fatalPower3        | 心眼 | 1    | 暴击 +90%                                      | 暴击 +90%                  |
+| enchant_atkX1              | 强攻 | 1    | 强化 +10%                                      | 强化 +10%                  |
+| enchant_atkX2              | 斗志 | 1    | 强化 +20%                                      | 强化 +20%                  |
+| enchant_atkX3              | 热血 | 1    | 强化 +30%                                      | 强化 +30%                  |
+| enchant_drainHp1           | 吸血 | 12   | 吸血 +1                                        | 吸血 +16                   |
+| enchant_stopArcaneBeam     | 高能 | 5    | 向队友停下的位置发射光束【必伤2】                            | 【必伤32】                   |
+| enchant_cardCoopGernade    | 轰炸 | 5    | 在场时 , 向攻击牌击中的敌人抛射炸弹【必伤2】                     | 【必伤32】                   |
+| enchant_cardCoopIceLance   | 冰锥 | 5    | 在场时 , 向攻击牌击中的敌人发射冰锥【必伤2】                     | 【必伤32】                   |
+| enchant_cardCoopLightning  | 闪电 | 5    | 在场时 , 向攻击牌击中的敌人发射闪电【必伤2】                     | 【必伤32】                   |
+| enchant_cardCoopFloatBlade | 飞刃 | 5    | 在场时 , 每当打出防御牌，召唤3个浮游刀刃【必伤2】                  | 【必伤32】                   |
+| enchant_moveSlashCircle    | 旋风 | 5    | 移动时 , 在周围产生风刃切割【必伤2】                         | 【必伤32】                   |
+| enchant_moveManaArrowRand  | 乱流 | 5    | 移动时 , 随机向周围喷射魔弹【必伤2】                         | 【必伤32】                   |
+| enchant_cardCoopSpdUp      | 疾走 | 1    | 在场时 , 每当打出buff或辅助牌 , 移速 +15% , 射击 +1 , 精准 +1 |                          |
+| enchant_cardCoopHeal       | 治愈 | 5    | 在场时 , 每当打出buff或辅助牌 , 治疗3生命                   |  治疗48生命                  |
+| enchant_cardCoopHolyShield | 圣盾 | 1    | 在场时 , 每当打出buff或辅助牌 , 获得 一层圣盾                 |                          |
+| enchant_cardCoopFireChains | 火链 | 1    | 在场时 , 每当打出防御牌 , 与最近的友军间产生伤害敌人的火焰锁链【必伤2】      | 【必伤32】                   |
+| enchant_hitLightning       | 导电 | 5    | 角色击中敌人时产生闪电【必伤2】                             | 【必伤32】                   |
+| enchant_hitFlame           | 爆炎 | 5    | 角色击中敌人时产生爆炸【必伤2】                             | 【必伤32】                   |
+| enchant_splitMana          | 散弹 | 5    | 角色击中敌人时产生散弹【必伤2】                             | 【必伤32】                   |
+| enchant_stopFireArea       |    | 5    | 当移动停止时，在脚下产生火焰区域【必伤2】                        | 【必伤32】                   |
+| enchant_stopAcidClound     | 酸雾 | 5    | 停下时，向周围释放大量酸雾【必伤2】                           | 【必伤32】                   |
+| enchant_rockBody           | 刚体 | 1    | 弹飞击中自己的近战敌人，攻击力240【必伤1】                      |                          |
+| enchant_cardCoopHoldPos    |    | 5    | 在场时 , 每当打出防御牌 , 反击 +2 , 护甲 +1 , 速度-15%       | 反击 +32 , 护甲 +16 , 速度-15% |
+| enchant_cardCoopManaCost-  |    | 1    | 随即一张手牌消耗行动力减一                                |                          |
+| enchant_cardCoopMana+      |    | 1    | 增加一点行动力                                      |                          |
+| enchant_cardCoopDrawCard   |    | 1    | 抽牌+1                                         |                          |
 
 ### 普通天赋
 | 真名                   | 名称      | 效果                             |
