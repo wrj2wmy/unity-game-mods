@@ -220,7 +220,7 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
      1 string _name = ""
      1 string _desc = ""
      1 string _tag = "enchant3"
-     0 int _weight = 2000 #增加权重比例
+     0 int _weight = 2000
      1 string _exData = ""
      1 string _color = "gold"
      0 float _addTradeVal = 5
@@ -228,7 +228,7 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
       0 Array Array (1 items)
        0 int size = 1
        [0]
-        1 string data = "flySpread +6, castAngle +90" #扩散+6,角度+90 -> 你可以改的更变态,360度全图也不是不可以 :-) 
+        1 string data = "flySpread +6, castAngle +90"
      0 Json_XObjSkill _attachSkills
       0 Array Array (0 items)
        0 int size = 0
@@ -237,6 +237,8 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
        0 int size = 0
 ````
 
+将 `0 int _weight = 3` 改成 `0 int _weight = 2000`, 极大的增加了附魔随机出现的全重
+`1 string data = "flySpread +6, castAngle +90"` 这一行是附魔的具体效果，你也可以增加此处的数值来增效其效果
 
 ## 副本事件的修改
 To be added...
