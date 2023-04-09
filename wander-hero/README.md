@@ -118,3 +118,55 @@ public int[] _featuresRand = new int[]
 
 修改字符born4:
 ![](./img/search_rand_feature_IL_2.png)
+
+
+### 第三步:去除只能选三个神眷的UI限制
+
+**【搜索内容】**
+![](./img/search_ui_btn_perk.png)
+
+
+**【原版代码】** 
+```csharp
+public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijjjjjj)
+{
+	int item = this._perkList.iiijiiiijijiijiijjjiijiijjiiiiijjijjijijjiiiiji((RectTransform val) => val == ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijjjjjj).Item2;
+	GameObject gameObject = this.ijjiijiijjjjijjjjijjjjijjjjjiijjiijiiijijjjjijj[item];
+	if (gameObject.activeSelf)
+	{
+		gameObject.jjijiijijijjiiiiiiijiiiiiijijjjjiijjiiiijjiijji(false);
+		return;
+	}
+	if (this.jjjjiijiijiiijijjiiijjiijjijiijiijijiijjijijjii() >= 3)
+	{
+		"showTip_perkPickMax".ijjijjijjjijjiijjijjjjiijjjiijjijjiiijijijjjiii().iijiijiiijiijjjjjjijjijjjjiijijjijjjjjiiijiijji(default(Color), true);
+		return;
+	}
+	gameObject.jjijiijijijjiiiiiiijiiiiiijijjjjiijjiiiijjiijji(true);
+}
+````
+
+**【修改内容】** 
+```csharp
+public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijjjjjj)
+{
+	int item = this._perkList.iiijiiiijijiijiijjjiijiijjiiiiijjijjijijjiiiiji((RectTransform val) => val == ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijjjjjj).Item2;
+	GameObject gameObject = this.ijjiijiijjjjijjjjijjjjijjjjjiijjiijiiijijjjjijj[item];
+	if (gameObject.activeSelf)
+	{
+		gameObject.jjijiijijijjiiiiiiijiiiiiijijjjjiijjiiiijjiijji(false);
+		return;
+	}
+	if (this.jjjjiijiijiiijijjiiijjiijjijiijiijijiijjijijjii() >= 9) #把此处3改成9
+	{
+		"showTip_perkPickMax".ijjijjijjjijjiijjijjjjiijjjiijjijjiiijijijjjiii().iijiijiiijiijjjjjjijjijjjjiijijjijjjjjiiijiijji(default(Color), true);
+		return;
+	}
+	gameObject.jjijiijijijjiiiiiiijiiiiiijijjjjiijjiiiijjiijji(true);
+}
+````
+
+注意次处需要用IL指令来修改
+
+修改数字9:
+![](./img/search_ui_btn_perk_IL.png)
