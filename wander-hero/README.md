@@ -2,18 +2,17 @@
 ![](./img/library_hero.jpg)
 这是二次元穿越者的异世界幻想，可以悠闲又有策略深度的进行冒险，可以构筑套牌，可以爽快弹珠，还能不伤钱包的抽抽抽收集美少女，组建只属于自己的后宫......咳咳，佣兵团。 美少女收集+卡牌+弹珠的极致综合体验！！！
 
-
-# `Assembly-CSharp.dll` 修改教程
-
 ## 最新支持版本：**v0.8.230309p3**
-
-文件地址：**Steam安装路径\Steam\steamapps\common\WanderHero_EA\WanderHero\WanderHero_Data\Managed**
 
 ## 目录
 
 * [神眷9选9的修改](https://github.com/wrj2wmy/unity-game-mods/tree/main/wander-hero#神眷9选9的修改)
 * [附魔概率的修改](https://github.com/wrj2wmy/unity-game-mods/tree/main/wander-hero#附魔概率的修改)
 * [副本事件的修改](https://github.com/wrj2wmy/unity-game-mods/tree/main/wander-hero#副本事件的修改)
+
+# `Assembly-CSharp.dll` 修改教程
+
+文件地址：**Steam安装路径\Steam\steamapps\common\WanderHero_EA\WanderHero\WanderHero_Data\Managed**
 
 ## 神眷9选9的修改
 
@@ -32,18 +31,18 @@
 ```csharp
 public int[] _featuresNum = new int[]
 {
-	0,  # 出现一个天赋的权重
-	0,  # 出现两个天赋的权重
-	100 # 出现三个天赋的权重
+	0,  //出现一个天赋的权重
+	0,  //出现两个天赋的权重
+	100 //出现三个天赋的权重
 };
 
 public int[] _featuresRand = new int[]
 {
-	0,  # 出现负面属性的权重
-	0,  # 出现常见属性的权重
-	0,  # 出现稀有属性的权重
-	0,  # 出现奇迹属性的权重
-	100 # 出现神眷属性的权重
+	0,  //出现负面属性的权重
+	0,  //出现常见属性的权重
+	0,  //出现稀有属性的权重
+	0,  //出现奇迹属性的权重
+	100 //出现神眷属性的权重
 };
 ````
 
@@ -89,7 +88,7 @@ public int[] _featuresRand = new int[]
 **【修改内容】** 
 ```csharp
 {
-	int num = Cfg_Vals.Inst._featuresNum.iijjjjijjijiiijijjijijijiiijiiijijjjjjjjijiijjj() + 9; #数量改成9
+	int num = Cfg_Vals.Inst._featuresNum.iijjjjijjijiiijijjijijijiiijiiijijjjjjjjijiijjj() + 9; //数量改成9
 	bool flag = false;
 	for (int i = 0; i < num; i++)
 	{
@@ -159,7 +158,7 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 		gameObject.jjijiijijijjiiiiiiijiiiiiijijjjjiijjiiiijjiijji(false);
 		return;
 	}
-	if (this.jjjjiijiijiiijijjiiijjiijjijiijiijijiijjijijjii() >= 9) #把此处3改成9
+	if (this.jjjjiijiijiiijijjiiijjiijjijiijiijijiijjijijjii() >= 9) //把此处3改成9
 	{
 		"showTip_perkPickMax".ijjijjijjjijjiijjijjjjiijjjiijjijjiiijijijjjiii().iijiijiiijiijjjjjjijjijjjjiijijjijjjjjiiijiijji(default(Color), true);
 		return;
@@ -173,7 +172,9 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 修改数字9:
 ![](./img/search_ui_btn_perk_IL.png)
 
+# `resources.assets` 修改教程
 
+文件地址：**Steam安装路径\Steam\steamapps\common\WanderHero_EA\WanderHero\WanderHero_Data**
 
 ## 附魔概率的修改
 
@@ -235,20 +236,20 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 ````
 
 
-
-
 ## 副本事件的修改
 To be added...
+
 
 
 ## 真名ID对照表
 
 ### 附魔效果
+
 | 真名 | 名称  | 效果                                           |
 | -- | --- | -------------------------------------------- |
-|    | 分裂  | 扩散 +2 , 角度 +30                               |
-|    | 扩散  | 扩散 +4 , 角度 +60                               |
-|    | 弹幕  | 扩散 +6 , 角度 +90                               |
+| enchant_flySpread1 | 分裂  | 扩散 +2 , 角度 +30                               |
+| enchant_flySpread2 | 扩散  | 扩散 +4 , 角度 +60                               |
+| enchant_flySpread3 | 弹幕  | 扩散 +6 , 角度 +90                               |
 |    | 防护  | 格挡 +1                                        |
 |    | 坚守  | 格挡 +2                                        |
 |    | 铁壁  | 格挡 +3                                        |
