@@ -104,7 +104,7 @@ public int[] _featuresRand = new int[]
 		{
 			list2.Add(randCfg);
 			list.Add(randCfg._id);
-			if (randCfg._tag == "born0") # 将`born4`改成`born0`
+			if (randCfg._tag == "born0") //将`born4`改成`born0`
 			{
 				flag = true;
 			}
