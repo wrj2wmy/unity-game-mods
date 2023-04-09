@@ -185,7 +185,7 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 以金色附魔扩散的修改为例,具体的ID可以参考最后的ID对照表：
 
 **【原版代码】** 
-```json
+```text
    [127]
     0 Json_TrueName data
      1 string _id = "enchant_flySpread3"
@@ -210,7 +210,7 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 ````
 
 **【修改内容】** 
-```json
+```text
    [127]
     0 Json_TrueName data
      1 string _id = "enchant_flySpread3"
