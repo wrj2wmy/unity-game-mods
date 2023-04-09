@@ -237,7 +237,8 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
        0 int size = 0
 ````
 
-将 `0 int _weight = 3` 改成 `0 int _weight = 2000`, 极大的增加了附魔随机出现的全重
+将 `0 int _weight = 3` 改成 `0 int _weight = 2000`, 极大的增加了附魔随机出现的权重
+
 `1 string data = "flySpread +6, castAngle +90"` 这一行是附魔的具体效果，你也可以增加此处的数值来增效其效果
 
 ## 副本事件的修改
