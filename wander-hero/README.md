@@ -111,7 +111,7 @@ public int[] _featuresRand = new int[]
 	}
 }
 ````
-注意次处需要用IL指令来修改
+注意此处需要用IL指令来修改
 
 修改数字9:
 ![](./img/search_rand_feature_IL_1.png)
@@ -166,7 +166,7 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 }
 ````
 
-注意次处需要用IL指令来修改
+注意此处需要用IL指令来修改
 
 修改数字9:
 ![](./img/search_ui_btn_perk_IL.png)
