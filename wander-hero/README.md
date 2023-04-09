@@ -179,11 +179,13 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 ## 附魔概率的修改
 
 需要用到UABE(Unity Assemble Bundle Extractor)来提取游戏的配置文件
-我们需要提取的文件是`Cfg_TrueName`
+我们需要提取的文件是`cfg_TrueName`, 找到后点击导出 `Export Dump`
+
+![](./img/assets_cfg_true_name.png)
 
 ### 属性修改
 
-以金色附魔扩散的修改为例,具体的ID可以参考最后的ID对照表：
+打开导出的txt或json文件, 以金色附魔扩散的修改为例, 具体的ID可以参考最后的ID对照表：
 
 **【原版代码】** 
 ```text
