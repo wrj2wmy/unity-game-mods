@@ -183,6 +183,11 @@ public void ui_btnPerk(RectTransform ijjjjiijijiiiijjijjjjijjjiiijijjjjijiijiijj
 
 ![](./img/assets_cfg_true_name.png)
 
+修改完成后选择导入`Import Dump`
+![](./img/assets_cfg_true_name_2.png)
+
+导入成功后，软件会弹出保存界面，将保存后的`resources.assets`文件替换原本的文件就完成了修改。
+
 ### 属性修改
 
 打开导出的txt或json文件, 以金色附魔扩散的修改为例, 具体的ID可以参考最后的ID对照表：
